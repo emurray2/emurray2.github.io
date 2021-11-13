@@ -72,6 +72,7 @@ p {
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
+  margin-bottom: 2rem;
 }
 .paragraph-divider p {
   font-size: 1rem;
