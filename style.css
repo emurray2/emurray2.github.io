@@ -3,5 +3,10 @@
 body {
   overflow-x; hidden;
   font-family: 'Noto Sans KR', sans-serif;
-  color: rgba(0, 0, 0, 1.0);
+  background-color: black;
+  color: white;
+}
+
+h1 {
+    margin-top: 10vh;
 }
