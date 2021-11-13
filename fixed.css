@@ -18,9 +18,19 @@ margin-right: 0px!important;
 .landing {
   position: relative;
   width: 100%;
-  height: 40vh;
+  height: 50vh;
   display: table;
   z-index: -1;
+}
+@media (max-width: 776px) {
+  .landing {
+    height: 58vh;
+  }
+}
+@media (max-width: 767px) {
+  .landing {
+    height: 45vh;
+  }
 }
 .home-wrap {
   clip: rect(0, auto, auto, 0);
