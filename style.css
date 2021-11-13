@@ -3,55 +3,124 @@
 body {
   overflow-x; hidden;
   font-family: 'Noto Sans KR', sans-serif;
+  color: white;
   background-color: black;
+}
+
+a {
+  color: #1ebba3;
+}
+a:hover {
   color: white;
 }
 
-.caption {
-    width: 100%;
-    max-width: 100%;
-    position: absolute;
-    top: 38%;
-    z-index: 1;
-    color: white;
-    text-transform: uppercase;
-  }
-  .caption h1 {
-    font-size: 3.8rem;
-    font-weight: 700;
-    letter-spacing: .3rem;
-    text-shadow: .1rem .1rem .8rem black;
-    padding-bottom: 1rem;
-  }
-  .caption h4 {
-    font-size: 2rem;
-    text-shadow: .1rem .1rem .5rem black;
-    padding-bottom: 1.6rem;
-  }
+iframe {
+  width: 100%;
+}
 
-  /*--- Media Queries --*/
+.row p {
+  font-size: 1.1rem;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/*--- Landing Page --*/
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.caption h4 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+/*--- About Section --*/
+#about {
+  background-color: black;
+  color: white;
+}
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2frem;
+}
+.narrow h3 {
+  font-size: 2.4rem;
+}
+.narrow h2 {
+  font-size: 1.5rem;
+}
+.background img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}
+.paragraph-divider p {
+  font-size: 1rem;
+}
+
+/*--- Media Queries --*/
 
 @media (max-width: 767px) {
-    .caption h1 {
-      font-size: 2.3rem;
-      letter-spacing: .1rem;
-      padding-bottom: .5rem;
-    }
-    .caption h4 {
-      font-size: 1.2rem;
-      padding-bottom: 1.2rem;
-    }
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .1rem;
+    padding-bottom: .5rem;
   }
-  
-  @media (max-height: 512px) {
-    .caption h1 {
-      font-size: 2.3rem;
-      letter-spacing: .1rem;
-      padding-bottom: .5rem;
-    }
-    .caption h4 {
-      font-size: 1.2rem;
-      padding-bottom: 1.2rem;
-      top: 20%;
-    }
+  .caption h4 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
   }
+  .narrow h3 {
+  font-size: 1.5rem;
+  }
+  .narrow h2 {
+  font-size: 1.2rem;
+  }
+  .background img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  }
+  .paragraph-divider p {
+  font-size: 0.8rem;
+  }
+}
+
+@media (max-height: 512px) {
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .1rem;
+    padding-bottom: .5rem;
+  }
+  .caption h4 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+    top: 20%;
+  }
+}
+
+@media(max-height: 435px) {
+  .home-inner {
+    background-image: none;
+    background-color: black;
+  }
+}
