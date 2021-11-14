@@ -7,6 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fixed.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Roger Linn Interview</title>
   </head>
   <body>
@@ -69,7 +73,184 @@
                 <div class="col-md-12 text-center">
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/a7Ps3Ox6JDo" allowfullscreen></iframe>
+                    <p style="text-transform: none; font-size: 0.9rem;">Published with permission from Roger Linn on November 5, 2021</p>
                   </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: bold; font-size: 1.4rem;">
+                    Roger Linn Interview:
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    What was the first instrument you learned, and why did you pick that one?
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    Well, it was guitar for two reasons. Number one, it was the sixties. I was born in '55. So when I was about eight years old, all the popular music was guitar--The Beatles, The Rolling Stones, The Beach Boys. All the bands were guitar bands. So, it was the zeitgeist. It was so good everyone longed to play. If you wanted to play music, you usually played the guitar. Occasionally there were keyboardists, but guitar was much sexier. You had a much better chance of getting a girlfriend if you played guitar than if you were sitting at a piano. But the other thing too is, my dad was a music professor. So he encouraged me to study an instrument. And so at around age eight, I started playing guitar. It was great. The carrot at the end of the string is, if you studied hard for a few years, eventually you get good enough to do some proper music, which is no longer the case. Now it's sort of DJing and object oriented performance are more popular. But at the time, you had no choice--you had to play guitar or something like that.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    How long did it take you to learn to start being able to prototype in assembly?
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    Well, if one is really interested in something, they learn quicker. Somebody who wants to learn a sport, for example (they really want to do it), they find that the filters disappear and information goes right into the brain. And so it was very interesting to me. I had two strong interests. One was music, and the other one was technology--which in the sixties, the future was cool. It became uncool sometime in the eighties, and then it started to become cool again. But at the time, it was something people talked about. There were TV shows about the future--one called "The 21st Century," there was a cartoon show called "The Jetsons," about a future city where people lived in houses up in the sky--so people talked about jetpacks and things. Of course a lot of things had never happened where as other things happened faster. But it was the zeitgeist. Kids talked about them. We talked about them at school. The future was cool, technology was cool, robots and computers were cool... non-existent but cool. And so with that interest, it allowed me to learn things much faster than if I didn't have the interest. Also, there was no internet at the time, but there were libraries. "The internet used to be called libraries." And so I'd get books, read them, and learn how things were done. I actually have no higher-education degrees. All I have is a high school degree, because I was born in '55, as were Steve Jobs, Bill Gates, Bill Joy and Eric Schmidt. So we were all people that dropped out of university, because when we were 20--and by the way this is a chapter in Malcom Gladwell's book <i>Outliers</i>--he talks about all these people that were born in 1955 and why that was a magic age. In 1975, when the micro-computer revolution hit, with the Intel 8080, the Z80, and things like that shortly following, if you were born in '55, you were 20 years old in '75. So you were out of high school, you could drop out of college if you wanted to and start a company, but you weren't old enough that you've already started a family, had kids, and you had to settle down and play it safe. So it was the ideal time to take a risk, and we all did. I'm not placing myself in the category of Jobs, Gates and others, but in my little corner of the world, I thought, "wouldn't it be cool to put this thing in a musical instrument." And so with that, I attended a lot of lectures. I took a couple of workshops in programming, and suffered with the arrogance of Microsoft's software support team who thought they were all God's gift of programmers, and they thought, "we were very cool" because I had questions about the poor documentation of their macro assembler. So first I learned BASIC, and then I learned assembly code, and eventually I just got things done because if you really wanted to get a result and you focus on it, you just figure out whatever it takes to get it done. And it took a lot of work back then... a lot of figuring things out, a lot of working around the company's mistakes.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    Do you find that data structures are important in audio development? Are there any examples of when you've used them?
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    Well, when I hear the word data structures, there were no data structures at the time, and I wasn't doing audio. I was doing just control because the micro-computers weren't fast enough to do audio. So my audio was all done by hardware, and all the software did was to do things like play bass drum, play snare drum, play bass drum, bass drum, snare drum. So the data structures were whatever I made up. There was no interoperability; there were no standards for exchanging data, there were no MIDI files... there was no MIDI. And so, we all just did it on our own. There was not even a standard for synchronization. So when I wanted to be able to sync to tape, I just created a signal that went out to tape and then fed it back in and it worked for me and not everybody else. It was the "Wild West." Everyone was just inventing their own things, and people were happy to get anything that worked in any way at that time.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    Do you find that today that you have to learn data structures with the work you do with MIDI?
+                  </p>
+                  <i>Here's what Roger Linn had to say about simple data structures used in software, such as an audio buffer:</i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    Ok, so for example, if you're writing a plugin that processes audio, you've got to operate on a buffer and make sure there's no under-run errors, so you're saying the data structure is the data structure of the buffer itself. You've just got to make sure you play by the rules. I've never written a plugin. I've only written embedded products, where hardware and software work together, so I've never dealt with that stuff. And I don't know if I'd want to. It's kind of a pain in the neck to do, and the trouble with plugins is: everyone makes them since it's easier. Therefore, there's no money in it, so I have to pay the bills and all that sort of stuff. But in general, what I would probably say is, when I hear data-structures, I'm talking about interoperability standards, and often standards are great. "They limit innovation, but they end up making everybody happy so who cares."
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    What motivated you to start a company?
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    Well, I was ambitious, and I didn't want to have to actually do something like get a job somewhere. So it seemed a good idea at the time: I had an idea... or a few ideas for a drum machine. It was largely born out of the the necessity of having a product that didn't exist. They say, "necessity is the mother of invention," or something like that. I was a songwriter, a musician. I could do my home studio demos. I could play guitar, bass, little keyboard, but "drums were always the hardest part." And although there were drum machines at the time, they had no programmable beats, and they had horrible sound. So I thought, "I could do this better." And so, that was my motivation I think was to do that. And if I wanted to make that, I thought, "what a great way to be able to make some money too." I was around 22 at the time, and I thought, "I've held off this long not having a job." I was always a consultant. I was always a touring musician, did some programming on a contract, or recording, engineering, production or something like that. But they were all short-term gigs. And so I though, "this would be great, we'd have some sort of steady income." And so I started a company.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    What does your typical workday look like?
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    Well, I work at home. I have no employees. But instead, I have consultants that I'll pull in for tasks (engineer friends that help me). And I have an extraordinary smart software engineer named Geert Bevin. And he actually works for Moog now. He's their lead software engineer. And he just takes a royalty out of each unit. So he just fixes things as is necessary and adds features as are necessary. I'm more of the person who can do a little bit of software, do a little hardware, do a little mechanical, this that. But it's hard for me to dig into any one thing deep enough. So it's great to have him do that. I have another guy that does circuit board layout for me. And then I have other people that do certain things. Then I have a contract manufacturer that's local here in the San Francisco Bay Area. They do all the manufacturing, and they do a flawless job. Then I just drive over there and do a quality control check, whenever there's a production in run, to make sure nothing popped up that they wouldn't notice--something from the musician's point of view--and test each one. And then they ship them for me so I don't have to have any shipping department. I don't need to have anybody doing anything. And I do it all. I do all the product development--I even do all the tech support. But fortunately, I have very good documentation on my website, so there aren't that many questions really. And, one of the nice things about having your name on the product is, "people are afraid to ask you a dumb question." So they tend to look at the manual first, which they probably don't do with other companies' products.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    Also, didn't you design your instruments so you don't need to read a manual? Is that part of the design?
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    That is very much so. "That's something I learned by putting on my musician's hat. I found myself often fighting with technology." So I'd always have a little home studio, even if it was something simple. And, I'd go into the studio, had a musical idea and wanted to record. And so I'd set up this machine, and there's something wrong with it. Then I'd have to pull out the manual, the manual doesn't work for some reason and it doesn't address what I'm trying to do. I try to call the company, they don't answer or they're closed. Then I say, "ok I'll just deal with it the other way." And then you use another product. That doesn't work. "By the time you've done a couple of these things, you lose the inspiration; you don't wan't to do it anymore." And so it seemed the most important thing is: this is a product for musicians. "Good musicians tend to be less technical. Good technical musicians tend to be less good at music. And I'd like to have customers who are talented and musically inspired." And so I try my best to make products that are as easy to use as possible and that don't require a manual. Now, LinnStrument for example, my current product line, is a MIDI controller. So by its fair nature, it's a little bit technical because it has no sounds. It just puts out MIDI. You have to have your own synths. So it's kind of like buying a car without an engine. You have to know something about what you're doing. So, it makes it easier because I tend to attract customers who do know more about the technical stuff. But I try my best to make it easy to use and to allow people to do what they want to do, so there are a lot of details in it. But you have to use something called a "revealed interface." So what you see at the top level is really simple, but then you can drill down into the other stuff, but the other stuff isn't just pushed into your face.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    How do you balance your time between the technical aspects of your work and the artistic aspects?
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    Well, I don't play much music anymore. I tend to spend my time more on the products... on the company... keeping all the plates spinning. That tends to take a fair amount of time. And also, I think I'm just less interested in creating music than I once did. There are so many better musicians than I am that I figure, "I'll focus on I'm good at and what I candidly prefer to do with my time these days and let other people (better musicians than I) focus on playing my instruments. And there are some wonderful players out there." So a typical day might be, I get up, --actually we have an office in the house (my wife and I). She's commander of the office; she works for Apple. And they don't want their employees to share an office with anybody else because they talk about these top secret things. So I've been kicked out of the office, so my office is actually wherever I happen to be. I could be sitting on the bed, I could be sitting in the living room on the sofa, I could in the garden sitting in one of the lounge chairs. And that's fine actually. I like it because it doesn't feel like I'm working, so I've done that. So I'll work in those positions, then make lunch in the middle of the day. Then it just depends. There's various things to do. Processing orders is one thing, dealing with support questions is another thing. Working on new products, engineering and solving new engineering problems is another thing... Dealing with all of the manufacturing issues, material requirements planning, and making sure that I don't have too many units so I end up with too much inventory and too much expense, or too few units and don't have enough to sell, which is happening right now actually. I kind of got caught unguarded here. I didn't make enough because I have to place my orders for production about six months early. So right now, I'm actually almost sold-out of LinnStruments until the end of the year. And, I can't do anything about it. I just have to say to people, "well you can buy it in January." Now that's not to say that the dealers have sold-out. I sold out to the dealers, and the dealers will have stock. So people will have places to find them. But that's it. I just basically do that then stop at a certain point--about the same time my wife stops work at Apple. That's it, that's Roger Linn Design disclosed.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    Were there any times when you ran out of work to do, and what did you do to make it through those times? How has the COVID-19 pandemic affected your workflow?
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    Well, currently things are very smooth. I have enough extra time to be able to work on ideas or develop new ideas occasionally. Then sometimes, things are very busy of course. But in past, one thing I discovered in having my first company and doing work over the years is: "most of my time has been spent correcting my own mistakes." So I find that if I actually don't make many mistakes, it doesn't actually take that much time. So it's good to think things through. The hard part about it is: what I do especially with embedded products and manufacturing, support and all this other stuff--there's just a whole lot to learn, so it takes a lifetime to learn that stuff. I think that anybody starting out, if they can get a mentor that knows that stuff, you can save an enormous amount of time. Otherwise, you just waste your time making mistakes most of the time. "I would say 90% of my time in past was spent correcting my own mistakes."
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    When you build a new instrument, effect or plugin, how do you start your design process and stay organized?
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    Well, for me I'm like what I like to call a "top-down designer." I start with a clearly-defined final product. What is its function, how will it work, what will it look like from the outside? I like to create 3D renderings and just look at the product and then sort of put my fingers and, how would I play it? How does it work? How does it feel as I imagine myself playing it. Then it's just a matter of making the guts. You just kind of drill down and then make all the other 3D parts in the model. The problem of course is that engineering is a never-ending series of compromises. Somebody once said to me, "an engineer is someone who can take something that costs three cents and make it for two cents." So there's a lot of optimization involved, and musicians are cheap bastards. They don't want to pay anything for anything. And if you're a small company, you're at a tremendous disadvantage because you don't have the economy as a scale. You see products like a guitar pedal for $100 or $60 at music stores, and it's enormously hard to hit those low price points. It's even hard to make something for $500 if you use off-the-shelf parts and low quantity manufacturing techniques. So you have to be really creative to be able to make something that's affordable and yet has a function that other larger companies haven't thought of. But fortunately, you have an advantage as a small company in that, you can do something for a smaller market than a larger company can. For example, my LinnStrument, not everybody wants to have an expressive controller because everyone's used to playing electronic music with on-off switches (a MIDI keyboard). So they don't know, they don't think of what you would do between the on and the off. They go ahead turn on, turn off, and then flip a knob over here, flip a switch. They don't think about expressive control, as exists on a guitar, a violin or a saxophone. So right now, it's a relatively small market that bigger companies don't want to touch. So it gives me an advantage. Therefore, I can sell something for--even though it costs me a lot to make it--a reasonable profit and make enough to make a pretty good living. So it's always a matter of compromises, and the trouble with it is, it helps to be able to know what does sheet metal vs. a molded case cost. What are all the sources? How can you think of something that doesn't require high up-front costs? How can you do things that use as many off-the-shelf parts as possible? Not only so you can keep your up-front costs down, but so that if you ever get in trouble with one supplier, you've got a second source for example. And it takes a lifetime of experience to gain this knowledge. But it really helps as a small company because the business world doesn't care about small companies. They just say, "go away." And so you really have to say, "what do you want me to do?" and I'll do that. And find some creative way to make your product function look well, look cool at a reasonable price with something that is valuable to people.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    How do you navigate around the limits of technology?
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    It's like a Ven Diagram set. Over here is things you can do [pointing to the left], over here is things you want to do [pointing to the right], and the intersection is about this much [pointing out the small area in the middle]. Hopefully, the circles are closer together, but often they're not. And so you have a lot of work-arounds you figure out. But it's interesting even in software for mature operating systems, like making iOS apps. A lot of my friends complain about having to work around--you know all these wonderful API's exist. You can do just about anything, except what you want to do. So often they have to go around extraordinary lengths to work around the way the API wants you to do it. And it's tricky. It's hard to do it, and it makes it harder to do software updates. And then often, the trick you want to do Apple won't let you do, and they won't pass the app. So sometimes you have to find a compromise between how you want to implement the feature and how it can be implemented. But there's usually some sort of a work-around to it, and people get things done somehow. Now, in embedded control, it's easier in the sense that you can write your own code. You don't have to fight with an operating system--you can do whatever you want. But the bad news is, you have to do everything yourself. There are libraries out there that help, but these embedded developer systems are not as mature as something like iOS. And you don't have hardware like a touch screen to work with. You have to find your own drivers if you put in a touch screen and you have to source the touch screen. All that is a whole lot of work. But I've got to say I prefer making embedded devices because it's harder to make any money selling software apps.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p style="font-weight: 600; font-size: 1rem;">
+                    If there's one piece of advice you could give any student, whether college or high school, what would it be?
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="paragraph-divider text-left">
+                  <p>
+                    Well I would say this, [laughing]--this is a funny answer. As I say, musicians are cheap bastards. They don't want to pay anything for anything, and profit is low making music products. It's very hard. So the best advice I could give you is, marry somebody who works at Apple because they pay very well at Apple. And that helps me during the down times. Just joking of course. But I would say, "make everything as scaleable as possible. Pinch your pennies. Because if you don't do it now, you'll have to do it later." And if you do it later when you've got some employees... heavily monthly expenses... you're going to go out of business if you don't have the money. There was a funny story: I used to know Ikutaro Kakehashi, who was the founder and CEO of Roland. I would see him at NAMM shows during the 90's. And my company would always have ups and downs. It was always every two years about to go out of business, and somehow I made it work. And I said to him, Taro (which was his nickname), "what am I doing wrong?" He said to me, "fundamental rule of business: you must bring in more money than goes out." It's a very simple rule, but it actually is surprising how I didn't see that and how many people don't see that. And what you have to do is you have to plan. So plan your cashflow so that you have a really nice comfortable margin if things don't go the way you want them to. And be honest with yourself. You may think you've got a great idea, but if the world doesn't agree with you, then don't just exist on fumes. You've got to talk to people and ask them what they really think. In fact, it's almost useless to talk to your friends because none of them will be honest with you. They all say, "oh that's a good idea." They don't want to hurt your feelings. And so you have to find out some way, like you show someone a picture of a rendering (renderings are free to make) and say, "hey here's a product I saw a picture of with an ad, and they're charging $300 for it. Would you buy that?" And the guy would say, "Pfft. You kidding? Look at that thing, it sucks." And then you would know you have their honest opinion. You would show it to 50 different people and see what they say. And you may just find out, as is often the case, that the thing you thought was this marvelous idea that everyone loves is actually something that you love and that your opinion is not shared by others. So it's important to get a realistic assessment. The second thing is, try to spend nothing developing a proof-of-concept prototype. One of the mistakes people make is: they start by making a beautiful enclosure. And they have no idea how hard it will be to develop the software or develop the hardware. And they spent all the money on this, and they'll talk to somebody who says, "oh you'll need to get a plastic-molded case," and it turns out that doing that requires about a $10,000 steel mold. So they spend their money. They borrow their parent's money, and they make this beautiful plastic case, and they have no idea what to put inside. So what you want to do first is a functional proof-of-concept, which you can do on Max on a computer. Mine was some low-cost hardware, such as KORG, KMI controllers and some synthesis. And make something that works the way you want your standalone product to make. Or if it's an app, do some sort of a proof-of-concept, a visual interface, something like that. Some way to do it so you spend maybe no more than $1,000 developing this thing, and then you can show it to people, and they can play with it, and "Do they get engaged? No. Or yes." If they get engaged, great. Show it to a lot of people. If they don't, you've done something wrong. Ask them what's wrong. Or, what's interesting: often what people do is they say, "oh this is so easy to use!" And then they show it to somebody else and say, "use it," and they can't figure out how to do it. You know, "but where's this button? I was expecting this button? I was expecting this knob." And, you don't find this out until you show it to somebody. So don't live in your own head. Make sure you get realistic advice and lose your ego. Keep enough ego so you can drive yourself forward, but not enough so you don't listen to anybody and think you're God.
+                  </p>
                 </div>
               </div>
             </div>
