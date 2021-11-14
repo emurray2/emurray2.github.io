@@ -14,12 +14,13 @@ a:hover {
   color: white;
 }
 
-iframe {
-  width: 100%;
-}
-
 p {
   font-size: 1.3rem;
+}
+
+iframe {
+    height: 36rem;
+    width: 48rem;
 }
 
 .offset:before {
@@ -75,12 +76,17 @@ p {
   margin-bottom: 2rem;
 }
 .paragraph-divider p {
-    display: block;
     font-size: 1rem;
     word-wrap: break-word;
 }
 
 /*--- Media Queries --*/
+@media (max-width: 1197px) {
+    iframe {
+        width: auto;
+        height: auto;
+    }
+}
 
 @media (max-width: 767px) {
   .caption h1 {
