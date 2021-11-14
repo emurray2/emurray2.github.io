@@ -75,7 +75,9 @@ p {
   margin-bottom: 2rem;
 }
 .paragraph-divider p {
-  font-size: 1rem;
+    display: block;
+    font-size: 1rem;
+    word-wrap: break-word;
 }
 
 /*--- Media Queries --*/
