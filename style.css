@@ -85,7 +85,7 @@ iframe {
 /*--- Media Queries --*/
 @media (max-width: 1197px) {
     iframe {
-        width: 40vw;
+        width: auto;
         height: auto;
     }
 }
